@@ -1,0 +1,9 @@
+{
+	"name": "ADFWafaDemotushar",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10ce12c4-0a79-45b2-9d26-ddc0897cc7ce",
+		"tenantId": "df0bb043-0232-4876-a4ba-4d49d67ca0c4"
+	}
+}
