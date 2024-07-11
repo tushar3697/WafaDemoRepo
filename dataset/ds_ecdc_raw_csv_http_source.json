@@ -1,0 +1,32 @@
+{
+	"name": "ds_ecdc_raw_csv_http_source",
+	"properties": {
+		"description": "http based source dataset to copy data from here to adls storage",
+		"linkedServiceName": {
+			"referenceName": "ls_http_pendata_ecdc_europea_eu",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"relativeurl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@dataset().relativeurl",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

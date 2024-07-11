@@ -1,0 +1,9 @@
+{
+	"name": "AzureDataFactory-Tushar",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "44f2b18a-5447-492d-a5e7-05a2e9def078",
+		"tenantId": "df0bb043-0232-4876-a4ba-4d49d67ca0c4"
+	}
+}
