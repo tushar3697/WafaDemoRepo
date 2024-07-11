@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzureDataFactory-Tushar"
+		},
+		"ls_adls_sacovidreportingadlsts_accountKey": {
+			"value": ""
+		},
+		"ls_azblob_sacovidreportingtushar_connectionString": {
+			"value": ""
+		},
+		"ls_adls_sacovidreportingadlsts_properties_typeProperties_url": {
+			"value": "https://sacovidreportingadlsts.dfs.core.windows.net/"
+		},
+		"ls_http_pendata_ecdc_europea_eu_properties_typeProperties_url": {
+			"value": "https://github.com"
+		}
+	}
+}
